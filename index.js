@@ -10,6 +10,9 @@ return res.send("hello users")
 app.get('/getmessage',(req,res)=>{
     res.send("second api test")
 })
+app.get('/second',(req,res)=>{
+    res.send("second message")
+})
 
 app.listen(port,()=>{
     console.log(`server is runing on ${port}...`)
