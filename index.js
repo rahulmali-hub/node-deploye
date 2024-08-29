@@ -8,7 +8,7 @@ app.get('/getuser',(req,res)=>{
 return res.send("hello users")
 })
 app.get('/getmessage',(req,res)=>{
-    res.send({message:"second api test"})
+    res.send("second api test")
 })
 
 app.listen(port,()=>{
